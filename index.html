@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Grid Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <section class="grid-container">
+    <header class="header">
+        <h1>Welcome To My Custom Grid Layout Website</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+        <li><a href="#about" class="nav__link"><span class="material-icons">face</span>About me</a></li>
+        <li><a href="#project" class="nav__link"><span class="material-icons">design_services</span>Projects</a></li>
+        <li><a href="#contactme" class="nav__link"><span class="material-icons">contacts</span>Contact me</a></li>
+    </ul>
+    <br>
+    <br>
+    <section>
+        <h2 id="about" style="text-align: center; background-color: lightcoral;" >About Me</h2>
+        <p style="text-align: center;"> My name is Vicky Le. I'm currently working at JAS Design Build as a shop drafter, where I utilize AutoCAD software to transform engineers' and architects' designs into detailed technical drawings. I thoroughly enjoy working on the computer and often spend more than 10 hours a day engaged in this work. As an introvert, I spend the most of my time indoors, where I enjoy things such as watching movies, playing on my PS5, VR2, Nintendo Switch, and Lego, as well as taking care of my plant collection.</p>
+    </section>
+<section class="home">
+        <a href="index.html" class="nav__link"><span class="material-icons">home</span>Home</a>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h2 id="about" style="text-align: center; background-color: lightcoral;">Curious to dive deeper into the world of JAS?</h2>
+        <p style="text-align: center;"> To discover more about my workplace, <a href="https://jasdesignbuild.com/">hit this link</a></p>
+        <div class="iframe">
+            <iframe src="https://jasdesignbuild.com/" width="427" height="400" ></iframe>
+        </div>
+        <a href="index.html" class="nav__link"><span class="material-icons">home</span>Home</a>
+    </section>
+    </nav>
+    <main class="main">
+        <section>
+            <h2 id="project" style="text-align: center; background-color: lightcoral;">Projects</h2>
+            <p style="text-align: center;">A couple of images related to my work</p>
+            <p style="text-align: center;"> <img src="1.jpg" width="500" height="300"></p>
+            <p style="text-align: center;"><img src="2.jpg" width="500" height="300"></p>
+            <p style="text-align: center;"><img src="3.jpg" width="500" height="300"></p>
+            <p style="text-align: center;"><img src="4.jpg" width="500" height="300"></p>
+        </section>
+    </main>
+        <aside class="aside">
+            <h2 id="contactme">Contact Me</h2>
+            <form action="#" method="post">
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="First Last" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Abc@gmail.com" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="8" placeholder="Send me your message here."></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </aside>
+    <footer class="footer">
+        <h1>Thank you for taking the time to review my webpage</h1>
+        <a href="index.html" class="nav__link"><span class="material-icons">home</span>Home</a>
+    </footer>
+</section>
+</body>
+</html>

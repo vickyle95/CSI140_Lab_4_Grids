@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Satisfy&display=swap');
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: lightseagreen;
+    grid-template-areas: 
+    "header header header"
+    "nav main main" 
+    "aside aside aside"
+    "footer footer footer"
+}
+.header {
+    grid-area: header;
+    text-shadow: 2px 2px lightseagreen;
+    font-family: cursive;
+    text-align: center;
+    
+} 
+.nav {
+    grid-area: nav;
+    background-color: lightseagreen;
+    border-style: solid;
+    border-width: 2px;
+    grid-row: 2 / 4;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+}
+
+.main{
+    grid-area: main;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;;
+    
+}
+.aside{
+    grid-area: aside;
+    background-color: lightcoral;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    text-align: center;
+} 
+.footer{
+    grid-area: footer;
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+
+}
+.nav__link{
+    color: rgb(209, 95, 57);
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
